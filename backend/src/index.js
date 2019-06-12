@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const cors = require('cors');
+const fs = require('fs');
 
 const app = express();
 
@@ -9,6 +10,12 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect('mongodb://localhost/semana-omnistack', { useNewUrlParser: true });
+
+const dir = './uploads/resized';
+
+if (!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
 
 app.use((req, res, next) => {
     req.io = io;

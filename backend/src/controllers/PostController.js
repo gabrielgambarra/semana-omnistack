@@ -14,6 +14,12 @@ module.exports = {
         const { author, place, description, hashtags } = req.body;
         const { filename: image } = req.file;
 
+        const dir = './uploads/resized';
+
+        if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
+        }
+
         const [name] = image.split('.');
         const fileName = `${name}.jpg`;
 
@@ -23,7 +29,7 @@ module.exports = {
             .toFile(
                 path.resolve(req.file.destination, 'resized', fileName)
             )
-        
+
         fs.unlinkSync(req.file.path);
 
         const post = await Post.create({
