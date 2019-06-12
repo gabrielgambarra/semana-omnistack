@@ -1,0 +1,1 @@
+Here is created a folder named "Resized" when application run.
