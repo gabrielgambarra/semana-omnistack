@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/semana-omnistack7/frontend/static/css/main.4751c969.chunk.css",
-    "main.js": "/semana-omnistack7/frontend/static/js/main.467d93cf.chunk.js",
-    "main.js.map": "/semana-omnistack7/frontend/static/js/main.467d93cf.chunk.js.map",
-    "runtime~main.js": "/semana-omnistack7/frontend/static/js/runtime~main.b4203d7d.js",
-    "runtime~main.js.map": "/semana-omnistack7/frontend/static/js/runtime~main.b4203d7d.js.map",
-    "static/js/2.3eb9155b.chunk.js": "/semana-omnistack7/frontend/static/js/2.3eb9155b.chunk.js",
-    "static/js/2.3eb9155b.chunk.js.map": "/semana-omnistack7/frontend/static/js/2.3eb9155b.chunk.js.map",
-    "index.html": "/semana-omnistack7/frontend/index.html",
-    "precache-manifest.8e8ee39a04422437e8d2527aad0d84b8.js": "/semana-omnistack7/frontend/precache-manifest.8e8ee39a04422437e8d2527aad0d84b8.js",
-    "service-worker.js": "/semana-omnistack7/frontend/service-worker.js",
-    "static/css/main.4751c969.chunk.css.map": "/semana-omnistack7/frontend/static/css/main.4751c969.chunk.css.map",
-    "static/media/camera.svg": "/semana-omnistack7/frontend/static/media/camera.787c6af9.svg",
-    "static/media/comment.svg": "/semana-omnistack7/frontend/static/media/comment.e2a49935.svg",
-    "static/media/like.svg": "/semana-omnistack7/frontend/static/media/like.00e13584.svg",
-    "static/media/logo.svg": "/semana-omnistack7/frontend/static/media/logo.83fd0bcc.svg",
-    "static/media/more.svg": "/semana-omnistack7/frontend/static/media/more.22d960a9.svg",
-    "static/media/send.svg": "/semana-omnistack7/frontend/static/media/send.55e74cfd.svg"
+    "main.css": "/semana-omnistack7/static/css/main.4751c969.chunk.css",
+    "main.js": "/semana-omnistack7/static/js/main.467d93cf.chunk.js",
+    "main.js.map": "/semana-omnistack7/static/js/main.467d93cf.chunk.js.map",
+    "runtime~main.js": "/semana-omnistack7/static/js/runtime~main.3a3bebc5.js",
+    "runtime~main.js.map": "/semana-omnistack7/static/js/runtime~main.3a3bebc5.js.map",
+    "static/js/2.d821687d.chunk.js": "/semana-omnistack7/static/js/2.d821687d.chunk.js",
+    "static/js/2.d821687d.chunk.js.map": "/semana-omnistack7/static/js/2.d821687d.chunk.js.map",
+    "index.html": "/semana-omnistack7/index.html",
+    "precache-manifest.64a78d9962b21ecb2f19312d97cae933.js": "/semana-omnistack7/precache-manifest.64a78d9962b21ecb2f19312d97cae933.js",
+    "service-worker.js": "/semana-omnistack7/service-worker.js",
+    "static/css/main.4751c969.chunk.css.map": "/semana-omnistack7/static/css/main.4751c969.chunk.css.map",
+    "static/media/camera.svg": "/semana-omnistack7/static/media/camera.787c6af9.svg",
+    "static/media/comment.svg": "/semana-omnistack7/static/media/comment.e2a49935.svg",
+    "static/media/like.svg": "/semana-omnistack7/static/media/like.00e13584.svg",
+    "static/media/logo.svg": "/semana-omnistack7/static/media/logo.83fd0bcc.svg",
+    "static/media/more.svg": "/semana-omnistack7/static/media/more.22d960a9.svg",
+    "static/media/send.svg": "/semana-omnistack7/static/media/send.55e74cfd.svg"
   }
 }
