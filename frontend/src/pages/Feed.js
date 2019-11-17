@@ -22,7 +22,7 @@ class Feed extends Component {
     }
 
     registerToSocket = () => {
-        const socket = io('http://localhost:5000');
+        const socket = io('https://back-semana7.herokuapp.com');
 
         //post, like
 
@@ -57,7 +57,7 @@ class Feed extends Component {
                             <img src={more} alt="More" />
                         </header>
 
-                        <img src={`http://localhost:5000/files/${post.image}`} alt="" />
+                        <img src={`https://back-semana7.herokuapp.com/files/${post.image}`} alt="" />
 
                         <footer>
                             <div className="actions">
